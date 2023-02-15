@@ -1,0 +1,99 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    box-sizing: border-box;
+}
+body{
+    background-color:#434343;
+
+
+}
+.login-box{
+    width:580px;
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    background-color: white;
+    padding: 30px 120px;
+    text-align: center;
+    border-radius: 13px;
+
+}
+.twitter-logo{
+    width:30px;
+    margin-bottom: 20px;
+    
+}
+.login-box h2{
+    margin-bottom: 20px;
+}
+.apple, .google{
+    width:18px;
+    margin-right: 10px;
+}
+.login-box button {
+    display: flex;
+    padding: 10px 0;
+    background-color: transparent;
+    border: 1px solid #999;
+    width: 100%;
+    font-weight: 500;
+    font-size: 15px;
+    border-radius: 30px;
+    align-items: center;
+    justify-content: center;
+    margin:20px 0;
+    cursor:pointer;
+
+}
+.login-box hr{
+    border: 0;
+    height: 1px;
+    background: #c2c2c2;
+    margin: 5px;
+
+}
+.login-box span{
+    display: block;
+    width: 40px;
+    margin: auto;
+    background: #fff;
+    font-size: 14px;
+    margin-top:-15px;
+
+}
+.login-box input {
+    width: 100%;
+    background: transparent;
+    border: 1px solid #999;
+    outline:0;
+    padding:15px 10px;
+    border-radius: 5px;
+    margin:10px 0;
+}
+::placeholder {
+    font-weight: 500;
+    color:#333;
+}
+.login-box form button{
+    background: black;
+    border:0;
+    color:#fff;
+    margin-bottom: 18px;
+
+
+}
+.login-box p {
+    text-align: left;
+    font-size: 15px;
+    color:#555;
+    margin:30px 0 40px;
+
+
+}
+.login-box p a{
+    text-decoration: none;
+    color:deepskyblue;
+}
